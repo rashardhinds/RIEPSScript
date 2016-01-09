@@ -8,7 +8,7 @@ History
 
 December 2015, the Rhode Island Electronic Portfolio System (RIEPS) was discontinued and students were responsible for getting out their assignments (aka tasks) and moving them to Google Drive, I was determined to develop a method for extracting a student's assignments.
 
-The method that administration had determined was time consuming an required manually searching through the porfolio, taking the screenshot and saving all assets.  This method took students that chose to do it this way hours.
+The method that administration had determined, was time consuming, and required manually searching through the porfolio, taking the screenshot and saving all assets.  This method took students that chose to do it this way hours.
 
 After various iterations, including a browser add-on, I ended up completing the Phantomjs and CasperJs script that went through a person's RIEPS account, by logging in (via the headless browser), finding tasks they've completed (eliminating any prior to highschool), creates a folder per task, takes a screenshot of the task page and downloads the files from that page and then puts all tasks into a larger centralized folder.  After, it zipped that folder and emailed the link to the student.
 
