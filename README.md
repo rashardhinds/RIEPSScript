@@ -1,6 +1,6 @@
 # RIEPSScript
 
-This script was created by Rashard Hinds in November, 2015 using JQuery, CasperJs, PhantomJs to do scraping on server
+This script was created by Rashard Hinds in November, 2015 using JQuery, CasperJs (https://github.com/n1k0/casperjs), PhantomJs (https://github.com/Medium/phantomjs) to do scraping on server
 
 Script was able to successfully scrape over 40 tasks, zip and email a link to a student within 5 minutes.
 
